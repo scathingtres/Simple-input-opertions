@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void){
     int c =0 ;
-    while((c!= EOF) && (c = getchar())!= EOF/*ctr+d typically in  Unix*/){
+    while((c!= EOF) && (c = getchar())!= EOF){
         
         while(c == ' '){
             putchar('\\');
